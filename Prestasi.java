@@ -28,14 +28,6 @@ public class Prestasi {
         } while (pilihan != 4);
     }
 
-    static void tampilkanMenu() {
-        System.out.println("\n=== MENU UTAMA ===");
-        System.out.println("1. Tambah Prestasi Mahasiswa");
-        System.out.println("2. Tampilkan Semua Prestasi");
-        System.out.println("3. Analisis Prestasi Berdasarkan Jenis");
-        System.out.println("4. Keluar");
-        System.out.print("Pilih menu: ");
-    }
 
     static void tambahkanPrestasi() {
         System.out.print("Masukkan Nama Mahasiswa: ");
