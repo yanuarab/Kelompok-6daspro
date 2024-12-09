@@ -29,7 +29,6 @@ public class Prestasi {
         } while (pilihan != 4);
     }
 
-
     static void tambahkanPrestasi() {
         System.out.print("Masukkan Nama Mahasiswa: ");
         prestasiList[jumlahPrestasi][0] = scanner.nextLine();
